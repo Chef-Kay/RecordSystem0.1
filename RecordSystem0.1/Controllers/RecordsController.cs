@@ -6,7 +6,7 @@ namespace RecordSystem0._1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RecordsController : ControllerBase
+    public class RecordsController : ControllerBase     //This class from god
     {
         private readonly AppDbContext _context;
 

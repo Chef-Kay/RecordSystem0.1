@@ -1,9 +1,10 @@
-﻿namespace RecordSystem0._1
-{
-    using Microsoft.EntityFrameworkCore;
-    using RecordSystem0._1.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using RecordSystem0._1.Models;
 
-    public class AppDbContext : DbContext
+namespace RecordSystem0._1
+{
+
+    public class AppDbContext : DbContext   //This class from god
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
