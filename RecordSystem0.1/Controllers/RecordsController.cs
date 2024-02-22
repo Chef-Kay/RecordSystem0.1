@@ -4,7 +4,7 @@ using RecordSystem0._1.Models;
 
 namespace RecordSystem0._1.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class RecordsController : ControllerBase     //This class from god
     {
